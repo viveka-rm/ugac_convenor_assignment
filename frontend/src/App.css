@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  color:black;
+}
+
+.container {
+  padding: 30px;
+  color:black;
+}
+
+.login-box {
+  width: 300px;
+  margin: 120px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  color:black;
+}
+
+.login-box input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  color:black;
+}
+
+.login-box button {
+  padding: 10px 20px;
+  background: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color:black;
+}
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  color:black;
+}
+
+.course-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px rgba(0,0,0,0.1);
+  color:black;
+}
+
+.course-card button {
+  padding: 10px 15px;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color:black;
+}
+
+.dashboard {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 220px;
+  background: #1e293b;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 30px;
+}
+
+.sidebar button {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: none;
+  background: #334155;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.sidebar button:hover {
+  background: #475569;
+}
+
+.main-content {
+  flex: 1;
+  padding: 30px;
+}
+.action-buttons button {
+  margin-right: 10px;
+}
