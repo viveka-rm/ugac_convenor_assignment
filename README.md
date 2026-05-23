@@ -213,19 +213,6 @@ Admin user is created using:
 python manage.py createsuperuser
 ```
 
----
-
-# Future Improvements
-
-- JWT Authentication
-- Better UI/UX
-- Search and Filters
-- Pagination
-- Responsive Design Improvements
-- Email Notifications
-
----
-
 # Author
 
 Viveka R M
